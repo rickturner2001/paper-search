@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { Book } from "~/types/Gutendex";
+import type { GenericBook } from "~/types/misc";
 
 const GutendexBook = ({ bookData }: { bookData: Book }) => {
   return (
-    <div className="group relative flex w-full max-w-md flex-col bg-black/20">
+    <div className="group relative flex min-h-[10rem] w-full max-w-md flex-col bg-black/20">
       <img
         alt={bookData.title + " Book cover"}
         src={bookData.formats["image/jpeg"]}
