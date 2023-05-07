@@ -26,9 +26,3 @@ If you wish to clone the repository, follow these steps:
 2. Navigate to the repository using `cd`.
 3. Install node dependencies: `npm i`
 4. Run `npm run dev` to start the development server
-
----
-
-## Contributing
-
-Contributions to Paper Search are welcome! If you would like to contribute, please open a pull request with your changes.
